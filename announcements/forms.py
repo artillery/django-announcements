@@ -12,7 +12,5 @@ class AnnouncementForm(forms.ModelForm):
             "content",
             "site_wide",
             "members_only",
-            "dismissal_type",
-            "publish_start",
-            "publish_end"
+            "dismissal_type"
         ]
