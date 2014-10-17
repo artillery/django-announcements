@@ -21,7 +21,7 @@ class AnnouncementAdmin(admin.ModelAdmin):
     list_filter = ("members_only",)
     fieldsets = [
         (None, {
-            "fields": ["title", "content", "site_wide", "members_only", "publish_start", "publish_end", "dismissal_type"],
+            "fields": ["title", "content", "site_wide", "members_only", "dismissal_type"],
         }),
     ]
 
